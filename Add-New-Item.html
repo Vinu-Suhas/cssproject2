@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task-Details-Page</title>
+</head>
+<style>
+    input[type=checkbox]:checked+label.strikethrough {
+  text-decoration: line-through;
+  color: grey;
+ 
+}
+</style>
+<body>
+    <div class="parent_container">
+        <div class="heading_container">
+            <h1 >Tasks </h1><h1 style="color: #00A5EC; ">List</h1><br>
+            <!-- <h1 style="float: left;">Tasks</h1><h1 style="color: #00A5EC; display: inline;">List</h1> -->
+    
+        </div>
+        <center>
+        
+        <div style="margin-top: 50px; margin-bottom: 50px;">
+            <a href="./index.html" style="margin-right: 70px;"><i class="fa-solid fa-circle-arrow-left fa-2x margin-top:50px" style="color: black;"></i> <span style="font-size: 28px;">Back</span></a>
+            <a href="./Add-New-Item.html"><i style="color:#00A5EC;" class="fa-sharp fa-solid fa-circle-plus fa-2x"></i><span style="font-size: 28px;"> Add New Task</span></a>
+        </div>    
+    <div class="card card6">
+        <p class="card_text_heading">Trip to paris</p>
+        <input type="checkbox" checked>
+        <label class="strikethrough">Visit Church</label> <br>
+        <input type="checkbox"> 
+        <label class="strikethrough">Shopping</label> <br>
+    </div>
+</center>
+    </div>
+    <div class="blackout">
+    </div>
+    <div class="card" style="opacity: 100; position: absolute; background-color: white; border-radius: 10px;   left: 500px ; border: 1px solid #EDEDED; width: 500px; height: 200px; font-family: Inter; padding: 20px 20px 20px 20px;
+    top: 150px;">
+        <p style='font-weight: 599;font-size: 19px;'>Add New Item </p><a href="./Task-Details-Page.html" class="close"></a>
+        <input type="text" placeholder="Visit Famous Places" style="color: #858585; border: #F7F7F7; margin-top: 20px;"><br><br>
+        <button  class="button" style="background-color: #00A5EC; color: white; border-radius: 4px;width: 180px;font-family: Inter; font-size: 19px;
+        height: 48px; margin-left: 314px; margin-top: 12px;">+ Add Item</button>
+    </div>
+</body>
+</html>
