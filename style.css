@@ -34,7 +34,7 @@ input[type=checkbox] {
     /* justify-content:space-around; */
     /* gap:10px */
     margin: 20px 20px 20px 20px ;
-    row-gap: 30px;
+    /* row-gap: 30px; */
    
 }
 .close {
@@ -83,6 +83,7 @@ input[type=checkbox]:checked+label.strikethrough {
     border:solid 2px #67676729;
     width: 313px;
     height: 313px;
+    margin-bottom: 20px;
     /* display: block; */
 }
 .card:hover {
@@ -90,7 +91,7 @@ input[type=checkbox]:checked+label.strikethrough {
     
   }
 .card1{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     position:relative;
 }
 
@@ -105,7 +106,7 @@ input[type=checkbox]:checked+label.strikethrough {
     margin-right: 30%;
 }
 .card4{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     position:relative;
 }
 .card5{
@@ -184,6 +185,9 @@ p.card_text_heading{
       margin-left: 138px;
         margin-right: 130px;
     }
+    .card3{
+      margin-left: 0px;
+    }
 
     .heading_container{
       margin-left: 0px;
@@ -191,6 +195,7 @@ p.card_text_heading{
 
     .card_container{
       justify-content: center;
+      gap:20px
     }
   .card6_container{
     display: block;
